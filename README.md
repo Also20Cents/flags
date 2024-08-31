@@ -1072,7 +1072,94 @@ High
     "DFIntCullFactorPixelThresholdShadowMapLowQuality": "10000"
 }
 ```
+### Vehicle Speed 1
+```json
+{
+    "DFIntDebugSimPrimalWarmstartForce": "40",
+    "DFIntDebugSimPrimalWarmstartVelocity": "102",
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalLineSearch": "41"
+}
+```
+### Vehicle Speed 2
+```json
+{
+    "DFIntDebugSimPrimalLineSearch": "50",
+    "DFIntDebugSimPrimalWarmstartVelocity": "103",
+    "DFIntDebugSimPrimalStiffness": "300",
+    "DFIntBulletContactBreakOrthogonalThresholdPercent": "10000"
+}
+```
+<h1 align="center">Game Specific: Fling Things and People</h1>
+### Send People To Hell
 
+```json
+{
+    "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-999999",
+    "DFFlagSimHumanoidTimestepModelUpdate": "True",
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "FFlagSimAdaptiveTimesteppingDefault2": "True",
+    "DFIntDebugSimPrimalWarmstartVelocity": "-10",
+    "DFIntDebugSimPrimalWarmstartForce": "1750",
+    "DFIntDebugSimPrimalPreconditioner": "-20",
+    "DFIntDebugSimPrimalPreconditionerMinExp": "1000",
+    "DFIntDebugSimPrimalNewtonIts": "2",
+    "DFIntDebugSimPrimalToleranceInv": "2"
+}
+{
+    "FFlagDebugAvatarChatVisualization": "True",
+    "FFlagEnableInGameMenuChromeABTest2": "False"
+}
+```
+<h1 align="center">Physics Extra</h1>
+
+### Low Gravity 2 Control on Parts Improvement
+```json
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalNewtonIts": "1",
+    "DFIntDebugSimPrimalPreconditioner": "15",
+    "DFIntDebugSimPrimalPreconditionerMinExp": "10",
+    "DFIntDebugSimPrimalToleranceInv": "1",
+    "DFIntDebugSimPrimalWarmstartForce": "-150",
+    "DFIntDebugSimPrimalWarmstartVelocity": "100"
+}
+```
+### Tool Fly
+```json
+{
+    "DFIntMinimalSimRadiusBuffer": "2147000000",
+    "DFIntMinClientSimulationRadius": "2147000000",
+    "DFFlagSimHumanoidTimestepModelUpdate": "True",
+    "DFIntMaxClientSimulationRadius": "2147000000",
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "FFlagSimAdaptiveTimesteppingDefault2": "True",
+    "DFIntNonSolidFloorPercentForceApplication": "-12000",
+    "DFIntDebugSimPrimalPreconditioner": "100",
+    "DFIntDebugSimPrimalPreconditionerMinExp": "100",
+    "DFIntDebugSimPrimalNewtonIts": "2",
+    "DFIntDebugSimPrimalWarmstartVelocity": "-150",
+    "DFIntDebugSimPrimalWarmstartForce": "-775",
+    "DFIntDebugSimPrimalToleranceInv": "1"
+}
+```
+### Spin3//Speed Boost
+```json
+{
+    "DFIntDebugSimPrimalWarmstartVelocity":       "101",
+    "DFIntDebugSimPrimalToleranceInv":            "2",
+    "DFIntDebugSimPrimalPreconditionerMinExp":    "-1000",
+    "DFIntDebugSimPrimalLineSearch":              "10",
+    "DFFlagSimHumanoidTimestepModelUpdate":       "True",
+    "DFIntDebugSimPrimalNewtonIts":               "2",
+    "FFlagSimAdaptiveTimesteppingDefault2":       "True",
+    "FFlagHandleAltEnterFullscreenManually":      "False",
+    "DFIntDebugSimPrimalPreconditioner":          "10",
+    "FFlagDebugSimDefaultPrimalSolver":           "True",
+    "FIntDebugSimPrimalGSLumpAlpha":              "-2147483647",
+    "DFIntDebugSimPrimalWarmstartForce":          "150"
+}
+```
 <h1 align="center">lol</h1>
 
 ### omg i cant believe roblox is that dumb to do this...
